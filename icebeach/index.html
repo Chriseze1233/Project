@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE Beach</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#" class="logoMain">
+                ICE <i class="fas fa-camera"></i> Beach
+            </a>
+        </div>
+        <nav class="nav">
+            <div class="navBar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav_listCont">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nightMode"></div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+                <div class="background">
+                    <img src="./images/back_1.jpg" alt="" class="imgSliders active" id="one">
+                    <img src="./images/back_2.jpg" alt="" class="imgSliders" id="two">
+                    <img src="./images/back_3.jpg" alt="" class="imgSliders" id="three">
+                </div>
+                <div class="navSlide">
+                    <span class="clickBtn active" data-id="one"></span>
+                    <span class="clickBtn" data-id="two"></span>
+                    <span class="clickBtn" data-id="three"></span>
+                </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="aboutWrappeer">
+                <div class="aboutPic">
+                    <img src="./images/about_1.jpg" alt="" class="img">
+                </div>
+                <div class="aboutText">
+                    <h2 class="subTitleText">What about us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis hic saepe totam possimus similique enim labore nesciunt ipsum eius?</p>
+                    <button class="cta">Check Out</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="explore" id="explore">
+            <div class="exploreWrapper">
+                <div class="textExplore">
+                    <h2 class="subTitleText">xplore</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repudiandae molestias incidunt minima harum ex.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem explicabo possimus iusto voluptatem perspiciatis. Dolores numquam cum rerum dolorum reiciendis?</p>
+                    <button class="cta">x-plore</button>
+                </div>
+
+                <div class="explorePhotos">
+                    <img src="./images/xplore_1.jpg" alt="" class="img">
+                    <img src="./images/xplore_2.jpg" alt="" class="img">
+                    <img src="./images/xplore_3.jpg" alt="" class="img">
+                    <img src="./images/xplore_4.jpg" alt="" class="img">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="subTitleText">Services</h2>
+            <div class="servicesWrapper">
+                <div class="servicesCard">
+                    <div class="imageService">
+                        <img src="./images/service_1.jpg" alt="">
+                    </div>
+                    <div class="txtService">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae! Tempore, temporibus quos!</p>
+                        <button class="cta">See more</button>
+                    </div>
+                </div>
+                <div class="servicesCard">
+                    <div class="imageService">
+                        <img src="./images/service_2.jpg" alt="">
+                    </div>
+                    <div class="txtService">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae! Tempore, temporibus quos!</p>
+                        <button class="cta">See more</button>
+                    </div>
+                </div>
+                <div class="servicesCard">
+                    <div class="imageService">
+                        <img src="./images/service_3.jpg" alt="">
+                    </div>
+                    <div class="txtService">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae! Tempore, temporibus quos!</p>
+                        <button class="cta">See more</button>
+                    </div>
+                </div>
+                <div class="servicesCard">
+                    <div class="imageService">
+                        <img src="./images/service_4.jpg" alt="">
+                    </div>
+                    <div class="txtService">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae! Tempore, temporibus quos!</p>
+                        <button class="cta">See more</button>
+                    </div>
+                </div>
+                <div class="servicesCard">
+                    <div class="imageService">
+                        <img src="./images/service_5.jpg" alt="">
+                    </div>
+                    <div class="txtService">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae! Tempore, temporibus quos!</p>
+                        <button class="cta">See more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form" id="contact">
+            <h2 class="subTitleText">Contact</h2>
+            <div class="formWrapper">
+                <div class="imgForm">
+                    <img src="./images/cont_1.png" alt="">
+                </div>
+                <div class="mainForm">
+                    <h2 class="ctnFormHeader">input form</h2>
+                    <form action="">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Phone">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Type here..."></textarea>
+                        <button class="cta frmBtn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footerWrapper">
+            <ul class="footerNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+            </ul>
+            <div class="textNav">
+                <p>Made with <i class="fas fa-heart"></i> by <i class="fas fa-smile smilieIcon"></i> by <h3>ICE CODE</h3></p>
+            </div>
+        </div>
+    </footer>
+    <script src="all.js"></script>
+    <script src="app.js"></script>
+ <script src="https://kit.fontawesome.com/0bbc730747.js" crossorigin="anonymous"> </script></body>
+</html>
