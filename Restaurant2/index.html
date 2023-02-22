@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eddy.com/home</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="all.js"></script>
+</head>
+<body>
+    <header class="header indexHead">
+        <div class="logo"><i class="fas fa-utensils ctaIcon"></i></div>
+        <nav class="nav indexNav">
+            <div class="toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navBar">
+                <li><a href="#">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="cta bookBtn">Reservation</button>
+            </ul>
+        </nav>
+        <div class="cartCover">
+            <i class="fas fa-shopping-cart ctaIcon"></i>
+        </div>
+    </header>
+    <main>
+        <section class="introCover">
+            <div class="sliderCover">
+                <!-- Checkboxes -->
+                <input type="radio" name="r" id="r1" class="inpSLid" checked>
+                <input type="radio" name="r" id="r2" class="inpSLid">
+                <input type="radio" name="r" id="r3" class="inpSLid">
+                <input type="radio" name="r" id="r4" class="inpSLid">
+                <!-- Images -->
+                <div class="slide s1">
+                    <img src="images/bac1.jpg" alt="" class="imgSliders">
+                </div>
+                <div class="slide s2">
+                    <img src="images/bac2.jpg" alt="" class="imgSliders">
+                </div>
+                <div class="slide s3">
+                    <img src="images/bac3.jpg" alt="" class="imgSliders">
+                </div>
+                <div class="slide s4">
+                    <img src="images/bac4.jpg" alt="" class="imgSliders">
+                </div>
+                <!-- Button -->
+                <div class="navSlide">
+                    <label for="r1" class="sliderBtn"></label>
+                    <label for="r2" class="sliderBtn"></label>
+                    <label for="r3" class="sliderBtn"></label>
+                    <label for="r4" class="sliderBtn"></label>
+                </div>
+            </div>
+            <div class="introText">
+                Eddy's Food
+            </div>
+        </section>
+        <section class="bookATable">
+            <h2 class="headingTitle headd">BOOk A TABLE</h2>
+            <div class="bookCover">
+                <div class="bookPic bPgaes">
+                    <img src="images/b_1.jpg" alt="">
+                    <div class="bookPicT">
+                        <h2>BOOK A TABLE</h2>
+                    </div>
+                </div>
+                <div class="bookForm bPgaes">
+                    <form action="" class="formBook">
+                        <div class="typOfOrder formGroups">
+                            <h3>Type Of Order</h3>
+                            <input type="radio" name="typOfOrder" id="" value="Delivery">Delivery
+                            <input type="radio" name="typOfOrder" id="" value="Pick Up">Pick Up
+                        </div>
+                        <div class="PickUpDate formGroups">
+                            <h3>Pick-up/Delivery Date</h3>
+                            <input type="date" name="" id="">
+                        </div>
+                        <div class="personalDetails formGroups">
+                            <h3>Customer's Name</h3>
+                            <input type="text" name="" id="" placeholder="First Name">
+                            <input type="text" name="" id="" placeholder="Last Name">
+                        </div>
+                        <div class="email formGroups">
+                            <h3>Customer's Email</h3>
+                            <input type="text" name="" id="" placeholder="Email">
+                        </div>
+                        <div class="customerNumber formGroups">
+                            <h3>Phone Number</h3>
+                            <input type="text" name="" id="" placeholder="Area code">
+                            <input type="text" name="" id="" placeholder="Phone Number">
+                        </div>
+                        <div class="deliveryInfo formGroups">
+                            <h3>Address</h3>
+                            <input type="text" name="" id="" placeholder="Street Address">
+                            <input type="text" name="" id="" placeholder="Street Address 2">
+                            <input type="text" name="" id="" placeholder="City">
+                            <input type="text" name="" id="" placeholder="State / Province">
+                            <input type="text" name="" id="" placeholder="Postal / Zip Code">
+                        </div>
+                        <div class="paymentMethod formGroups">
+                            <h3>Payment</h3>
+                            <input type="text" name="" id="" placeholder="Credit Card Numn">
+                            <input type="text" name="" id="" placeholder="Security Code">
+                            <input type="text" name="" id="" placeholder="EXpiration Month">
+                            <input type="text" name="" id="" placeholder="Expiration Year">
+                        </div>
+                        <button type="submit" class="formBtn cta">Pre-Order</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Esay Steps -->
+        <section class="easySteps">
+            <h2 class="headingTitle headd">Easy Step's</h2>
+            <div class="simpleStepsCover">
+                <div class="simpleContent">
+                    <img src="images/e_1.png" alt="">
+                    <h4>Sign Up</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="simpleContent">
+                    <img src="images/e_2.png" alt="">
+                    <h4>Order</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="simpleContent">
+                    <img src="images/e_3.png" alt="">
+                    <h4>Delivery</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Reveiws -->
+        <section class="customerReview">
+            <h2 class="headingTitle headd">Customer's Review</h2>
+            <div class="reviewCover">
+                <div class="reveiwContent">
+                    <div class="topRevCont">
+                        <img src="images/r_2.jpg" alt="">
+                        <h2 class="revName">Paul Winners</h2>
+                    </div>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <hr />
+                    <div class="rev">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, deleniti eum consequuntur laudantium quas velit eos at quibusdam! Praesentium, a?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reveiwContent">
+                    <div class="topRevCont">
+                        <img src="images/r_3.jpg" alt="">
+                        <h2 class="revName">Paul Winners</h2>
+                    </div>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <hr />
+                    <div class="rev">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, deleniti eum consequuntur laudantium quas velit eos at quibusdam! Praesentium, a?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reveiwContent">
+                    <div class="topRevCont">
+                        <img src="images/r_1.jpg" alt="">
+                        <h2 class="revName">Paul Winners</h2>
+                    </div>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <hr />
+                    <div class="rev">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, deleniti eum consequuntur laudantium quas velit eos at quibusdam! Praesentium, a?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- -----FOoter ----- -->
+    <footer class="footer">
+        <section class="footerText">
+            <div class="logoFooter">
+                <img src="" alt="">
+                <h3>Eddy's Food</h3>
+            </div>
+            <hr />
+            <div class="locationFooter">
+                <div class="locateFotter contFoooter">
+                    <i class="fas fa-location"></i>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="contactFooter contFoooter">
+                    <i class="fas fa-phone"></i>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="emailFooter contFoooter">
+                    <i class="fas fa-envelope"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+        </section>
+        <section class="footerWrap">
+            <div class="aboutFooter footerContent">
+                <h4 class="headingTitle">About</h4>
+                <ul>
+                    <li><a href="">The Team</a></li>
+                    <li><a href="">Vision</a></li>
+                    <li><a href="">Achievements</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="quickLinksFooter footerContent">
+                <h4 class="headingTitle">Quick Links</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Easy Steps</a></li>
+                    <li><a href="">Book a Table</a></li>
+                    <li><a href="">Review</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Menu's</a></li>
+                </ul>
+            </div>
+            <div class="contactFooter footerContent">
+                <h4 class="headingTitle">Contact Us</h4>
+                <ul>
+                    <li><a href="">Sign up</a></li>
+                    <li><a href="">login</a></li>
+                    <li><a href="">Email us</a></li>
+                    <li><a href="">Location</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="socialFooter footerContent">
+             <h4 class="headingTitle">Social</h4>
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-square iconsSearch"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter-square iconsSearch"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram-square iconsSearch"></i></a></li>
+                    <li><a href=""><i class="fab fa-messenger iconsSearch"></i></a></li>
+                    <li><a href=""><i class="fab fa-telegram iconsSearch"></i></a></li>
+                </ul>
+                <div class="footerSearch">
+                    <input type="search" name="" id="" class="searchFoot">
+                    <button>Search</button>
+                </div>
+            </div>
+        </section>
+        <section class="footerBottom">
+            <h4>&copy; Copyright Eddy's Food 2022</h4>
+        </section>
+    </footer>
+    <script src="./app.js"></script>
+ <script src="https://kit.fontawesome.com/0bbc730747.js" crossorigin="anonymous"> </script></body>
+</html>
